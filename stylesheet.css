@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.cred{
+     color: red;
+}
+.cblue{
+     color: blue;
+}
+.cyel{
+     color: yellow
+}
+
+#titleImg{
+     width:20%;
+     border-radius: 50px;
+}
+
+a{
+     font-size: small;
+}
