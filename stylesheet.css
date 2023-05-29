@@ -11,10 +11,21 @@
 }
 
 #titleImg{
-     width:20%;
+     float: right;
+     margin-right: 50px; 
+     width: 32%;
      border-radius: 50px;
 }
 
+#title{
+     text-align: center;
+     font-family
+}
 a{
      font-size: small;
+}
+
+body {
+     background-color: greenyellow
+
 }
