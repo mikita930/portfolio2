@@ -14,3 +14,9 @@ function clickBtn() {
           document.getElementById("titleImg").style.display = "none";
      }
 }
+
+function toggleMenu() {
+     var menu = document.getElementById('hamburgerMenu');
+     menu.classList.toggle('active');
+   }
+   

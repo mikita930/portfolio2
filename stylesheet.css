@@ -19,13 +19,45 @@
 
 #title{
      text-align: center;
-     font-family
+     font-family: Arial, sans-serif;
 }
-a{
-     font-size: small;
+
+#text{
+     text-align: center;
+     font-size: 32px;
 }
 
 body {
      background-color: greenyellow
 
+}
+
+.hamburger-menu {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 40px;
+     height: 40px;
+     cursor: pointer;
+   }
+
+.hamburger-menu .line{
+     width: 30px;
+     height: 2px;
+     background-color: black;
+     margin-bottom: 4px;
+     transition: transform 0.3s ease;
+}
+
+.hamburger-menu.active .line:nth-child(1) {
+     transform: translateY(6px) rotate(45deg);
+}
+   
+   .hamburger-menu.active .line:nth-child(2) {
+     opacity: 0;
+}
+   
+   .hamburger-menu.active .line:nth-child(3) {
+     transform: translateY(-6px) rotate(-45deg);
 }
